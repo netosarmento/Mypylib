@@ -1,0 +1,12 @@
+#Pymodelo autogui
+
+import pyautogui
+
+#logica de programação
+
+1- entrar no sistema que deseja
+
+#pyautogui.click - click
+#pyautogui.press - apertar tecla
+#pyautogui.hotkey - conjunto de teclas
+#pyautogui.writer - escrever
