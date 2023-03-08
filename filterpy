@@ -1,0 +1,5 @@
+#Escolha imagem (png, bmp, jpeg) o filtro e output
+from PIL import Image, ImageFilter
+before = Image.open("image.example")
+after = before.filter(ImageFilter.BoxBlur(10))
+after.save("out.example")
