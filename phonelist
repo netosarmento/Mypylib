@@ -1,0 +1,11 @@
+from cs50 import get_string
+
+people = {
+    "Brian" : "+1-617-495-1000",
+    "David" : "+1-949-679-9999",
+    "Ron" : "+1-357-893-6789"
+}
+#printando nome e telefone
+name = get_string("Nome: ")
+if name in people:
+    print(f"Numero: {people[name]}")
